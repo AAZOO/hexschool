@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: "Roboto", "Microsoft JhengHei", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  padding: 47px 0 17px 0;
+  border-bottom: solid 2px #000000;
+}
+
+.photo {
+  padding-top: 48px;
+  width: 324px;
+}
+
+.box {
+  padding-top: 58px;
+  padding-bottom: 42px;
+}
+.box h2 {
+  border-bottom: solid 1px #000000;
+  padding-bottom: 15px;
+}
+.box .titleTW {
+  font-size: 32px;
+  padding-right: 16px;
+}
+.box .titleEN {
+  color: #A00404;
+  font-size: 24px;
+  padding-left: 16px;
+}
+.box p {
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 16px;
+}
+.box ul {
+  margin: 16px 0 72px 0;
+  border-left: solid 1px #96A9C4;
+  padding-left: 20px;
+}
+.box ul li {
+  font-size: 24px;
+  padding: 12px 0;
+}
+.box ul li img {
+  padding-top: 8px;
+}
+.box ul li p {
+  font-size: 20px;
+  line-height: 24px;
+}
+.box ul li:first-child {
+  padding-top: 0px;
+}
+.box ul li:last-child {
+  padding-bottom: 0px;
+}
+
+.skill {
+  background-color: #415165;
+}
+.skill .containerSmaller {
+  max-width: 996px;
+  margin: 0 auto;
+  text-align: center;
+}
+.skill h2 {
+  color: #ffffff;
+  padding: 24px 0 15px 0;
+  border-bottom: 1px solid #ffffff;
+}
+.skill .titleTW {
+  font-size: 32px;
+  padding-right: 16px;
+}
+.skill .titleEN {
+  font-size: 24px;
+  padding-left: 16px;
+}
+.skill ul {
+  text-align: left;
+  width: 220px;
+  display: inline-block;
+  border-left: solid 1px #96A9C4;
+  padding-left: 20px;
+  margin: 40px 0;
+}
+.skill ul li {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px 0;
+}
+.skill ul li:first-child {
+  padding-top: 0px;
+}
+.skill ul li:last-child {
+  padding-bottom: 0px;
+}
+
+.contant {
+  background-color: #415165;
+  text-align: center;
+}
+.contant h2 {
+  color: #ffffff;
+  padding: 24px 0 15px 0;
+  border-bottom: 1px solid #ffffff;
+}
+.contant .titleTW {
+  font-size: 32px;
+  padding-right: 16px;
+}
+.contant .titleEN {
+  font-size: 24px;
+}
+.contant ul {
+  color: #ffffff;
+  margin: 16px 0;
+}
+.contant ul li {
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 16px;
+}
+.contant ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.socialIcon li {
+  display: inline-block;
+  cursor: pointer;
+}
+.socialIcon li img {
+  padding: 12px;
+}
+.socialIcon li:hover img {
+  opacity: 0.3;
+  transition: 0.5s;
+}
