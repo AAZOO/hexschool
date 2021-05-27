@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap')
+
+/*--------------------------------------------------------
+ General Settings
+ --------------------------------------------------------*/
+*,*:before,*:after
+    box-sizing: border-box
+    font-family: 'Roboto','Microsoft JhengHei',sans-serif
+
+.container
+    max-width: 940px
+    padding: 50px 0
+    margin: 0 auto
+    display: flex
+
+/*--------------------------------------------------------
+ Dessert Shop
+ --------------------------------------------------------*/
+.menu
+    width: 300px
+    text-align: center
+    margin-right: 20px
+    ul
+        font-size: 24px
+        font-weight: 500
+        color: #3F5D45
+        border: solid 1px #EAF0ED
+        li
+            height: 65px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            border-top: solid 1px #EAF0ED
+            cursor: pointer
+            &:first-child
+                border-top: none
+        .title
+            background-color: #3F5D45
+            color: #ffffff
+        .active
+            background-color: #EAF0ED
+.dessert
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    width: 640px
+    .dessertWrap
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    .dessertCard
+        margin-bottom: 20px
+        .wrap
+            width: 300px
+            height: 315px
+            position: relative
+            overflow: hidden
+            .photo
+                width: 100%
+                position: absolute
+                left: 50%
+                transform: translate(-50%)
+            .today
+                position: absolute
+                writing-mode: vertical-rl
+                top: 0
+                left: 20px
+                background-color: #3F5D45
+                font-size: 16px
+                color: #ffffff
+                padding: 10px
+                letter-spacing: 8px
+            .heart
+                position: absolute
+                width: 20px
+                top: 19px
+                right: 20px
+        .info
+            display: flex
+            height: 56px
+            font-size: 20px
+            color: #3F5D45
+            border-left: solid 1px #EAF0ED
+            border-right: solid 1px #EAF0ED
+            .dessertName
+                padding: 0 33px
+                font-weight: 300
+                display: flex
+                align-items: center
+                border-right: solid 1px #EAF0ED
+            .price
+                font-weight: 500
+                width: 127px
+                display: flex
+                align-items: center
+                justify-content: center
+        .add
+            background-color: #EAF0ED
+            color: #3F5D45
+            font-size: 24px
+            font-weight: 500
+            padding: 16px 0
+            display: flex
+            justify-content: center
+            align-items: center
+        // &:nth-child(odd)
+        //     margin-right: 20px
+        &:hover
+            cursor: pointer
+            .photo
+                position: absolute
+                width: 130%
+                transition: 3s
+    .pageWrap
+        border: solid 1px #EAF0ED
+        margin: 30px 0 50px 0
+        ul
+            display: flex
+            li
+                width: 60px
+                height: 60px
+                display: flex
+                justify-content: center
+                align-items: center
+                border-right: solid 1px #EAF0ED
+                font-size: 20px
+                color: #3F5D45
+                font-weight: 300
+                &:last-child
+                    border-right: none
+            .active
+                background-color: #3F5D45
+                color: #ffffff
